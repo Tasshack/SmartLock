@@ -1,0 +1,128 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <title>Smart Lock</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Smart Lock">
+    <meta name="theme-color" content="#000">
+
+    <link rel="apple-touch-icon-precomposed apple-touch-icon shortcut icon" href="/content/image/logo.png" />
+    <link type="text/css" rel="stylesheet" href="content/style/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="content/style/main.css" type="text/css" />
+</head>
+<body>
+    <div id="container">
+        <div id="panel" class="screen hidden">
+            <div class="holder">
+                <div class="status"></div>
+                <div class="button-container">
+                    <div class="indicator locked"></div>
+                    <div class="indicator unlocked"></div>
+                    <div class="big-button locked">
+                        <button class="material-icons">lock_outline</button>
+                    </div>
+                    <div class="big-button unlocked">
+                        <button class="material-icons">lock_open</button>
+                    </div>
+                    <div class="big-button init">
+                        <button class="material-icons">lock</button>
+                    </div>
+                </div>
+                <div class="action"></div>
+            </div>
+        </div>
+        <div id="settings" class="screen hidden"></div>
+        <div class="loader">
+            <span></span>
+            <!--<div class="preloader-wrapper big active">
+                <div class="spinner-layer spinner-blue-only">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div><div class="gap-patch">
+                        <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+        <div id="keypad" class="screen hidden">
+            <div class="holder">
+                <div id="password">
+                    <span>
+                        <input type="password" maxlength="1" value="*">
+                    </span>
+                    <span>
+                        <input type="password" maxlength="1" value="*">
+                    </span>
+                    <span>
+                        <input type="password" maxlength="1" value="*">
+                    </span>
+                    <span>
+                        <input type="password" maxlength="1" value="*">
+                    </span>
+                </div>
+                <div id="keys">
+                    <div>
+                        <input class="number" type="button" value="1">
+                    </div>
+                    <div>
+                        <input class="number" type="button" value="2">
+                    </div>
+                    <div>
+                        <input class="number" type="button" value="3">
+                    </div>
+                    <div>
+                        <input class="number" type="button" value="4">
+                    </div>
+                    <div>
+                        <input class="number" type="button" value="5">
+                    </div>
+                    <div>
+                        <input class="number" type="button" value="6">
+                    </div>
+                    <div>
+                        <input class="number" type="button" value="7">
+                    </div>
+                    <div>
+                        <input class="number" type="button" value="8">
+                    </div>
+                    <div>
+                        <input class="number" type="button" value="9">
+                    </div>
+                    <div>
+                        <input id="button-back" type="button" class="material-icons" value="keyboard_backspace">
+                    </div>
+                    <div>
+                        <input class="number" type="button" value="0">
+                    </div>
+                    <div>
+                        <input id="button-ok" type="button" class="material-icons" value="check">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="pattern" class="screen hidden">
+            <div class="holder">
+                <span>Draw a pattern to login</span>
+                <div class="pattern">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg locked"></div>
+    <div class="bg unlocked"></div>
+    <div class="bg init"></div>
+    <script src="content/script/jquery-2.2.3.min.js"></script>
+    <script src="content/script/patternLock.min.js"></script>
+    <script src="content/script/app.js"></script>
+    <script>
+        init();
+    </script>
+</body>
+</html>
