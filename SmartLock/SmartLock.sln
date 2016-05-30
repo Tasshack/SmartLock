@@ -1,0 +1,125 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SmartLock", "SmartLock.vcxproj", "{32171E01-A9EA-4991-A6C8-0B1F871DA3DC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Indicator", "..\Indicator\Indicator.vcxproj", "{2F69601E-F11B-4632-8585-9E2C083E3BF9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LedRing", "..\LedRing\LedRing.vcxproj", "{AB409689-A39D-4AD5-865E-6090C7E003A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicOTA", "..\BasicOTA\BasicOTA.vcxproj", "{E9FBD584-D80F-4DCE-A53D-2499098FEF0A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FastLed", "..\FastLed\FastLed.vcxproj", "{B6FF5382-DBDB-47FF-8289-5BFF583512FF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AnalogRead", "..\AnalogRead\AnalogRead.vcxproj", "{09B3DDAB-9FE6-4DA8-B614-B1BF22251A1C}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SmartLock Client", "..\..\..\..\..\inetpub\SmartLock Client\", "{46CD40D7-FF1A-4A59-9E3D-858C99D868AF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53043"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\inetpub\SmartLock Client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53043\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53043"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\inetpub\SmartLock Client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53043\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53043"
+		SlnRelativePath = "..\..\..\..\..\inetpub\SmartLock Client\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32171E01-A9EA-4991-A6C8-0B1F871DA3DC}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{32171E01-A9EA-4991-A6C8-0B1F871DA3DC}.Debug|x64.ActiveCfg = Debug|x64
+		{32171E01-A9EA-4991-A6C8-0B1F871DA3DC}.Debug|x64.Build.0 = Debug|x64
+		{32171E01-A9EA-4991-A6C8-0B1F871DA3DC}.Debug|x86.ActiveCfg = Debug|Win32
+		{32171E01-A9EA-4991-A6C8-0B1F871DA3DC}.Debug|x86.Build.0 = Debug|Win32
+		{32171E01-A9EA-4991-A6C8-0B1F871DA3DC}.Release|Any CPU.ActiveCfg = Release|Win32
+		{32171E01-A9EA-4991-A6C8-0B1F871DA3DC}.Release|x64.ActiveCfg = Release|x64
+		{32171E01-A9EA-4991-A6C8-0B1F871DA3DC}.Release|x64.Build.0 = Release|x64
+		{32171E01-A9EA-4991-A6C8-0B1F871DA3DC}.Release|x86.ActiveCfg = Release|Win32
+		{32171E01-A9EA-4991-A6C8-0B1F871DA3DC}.Release|x86.Build.0 = Release|Win32
+		{2F69601E-F11B-4632-8585-9E2C083E3BF9}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{2F69601E-F11B-4632-8585-9E2C083E3BF9}.Debug|x64.ActiveCfg = Debug|x64
+		{2F69601E-F11B-4632-8585-9E2C083E3BF9}.Debug|x64.Build.0 = Debug|x64
+		{2F69601E-F11B-4632-8585-9E2C083E3BF9}.Debug|x86.ActiveCfg = Debug|Win32
+		{2F69601E-F11B-4632-8585-9E2C083E3BF9}.Debug|x86.Build.0 = Debug|Win32
+		{2F69601E-F11B-4632-8585-9E2C083E3BF9}.Release|Any CPU.ActiveCfg = Release|Win32
+		{2F69601E-F11B-4632-8585-9E2C083E3BF9}.Release|x64.ActiveCfg = Release|x64
+		{2F69601E-F11B-4632-8585-9E2C083E3BF9}.Release|x64.Build.0 = Release|x64
+		{2F69601E-F11B-4632-8585-9E2C083E3BF9}.Release|x86.ActiveCfg = Release|Win32
+		{2F69601E-F11B-4632-8585-9E2C083E3BF9}.Release|x86.Build.0 = Release|Win32
+		{AB409689-A39D-4AD5-865E-6090C7E003A8}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{AB409689-A39D-4AD5-865E-6090C7E003A8}.Debug|x64.ActiveCfg = Debug|x64
+		{AB409689-A39D-4AD5-865E-6090C7E003A8}.Debug|x64.Build.0 = Debug|x64
+		{AB409689-A39D-4AD5-865E-6090C7E003A8}.Debug|x86.ActiveCfg = Debug|Win32
+		{AB409689-A39D-4AD5-865E-6090C7E003A8}.Debug|x86.Build.0 = Debug|Win32
+		{AB409689-A39D-4AD5-865E-6090C7E003A8}.Release|Any CPU.ActiveCfg = Release|Win32
+		{AB409689-A39D-4AD5-865E-6090C7E003A8}.Release|x64.ActiveCfg = Release|x64
+		{AB409689-A39D-4AD5-865E-6090C7E003A8}.Release|x64.Build.0 = Release|x64
+		{AB409689-A39D-4AD5-865E-6090C7E003A8}.Release|x86.ActiveCfg = Release|Win32
+		{AB409689-A39D-4AD5-865E-6090C7E003A8}.Release|x86.Build.0 = Release|Win32
+		{E9FBD584-D80F-4DCE-A53D-2499098FEF0A}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{E9FBD584-D80F-4DCE-A53D-2499098FEF0A}.Debug|x64.ActiveCfg = Debug|x64
+		{E9FBD584-D80F-4DCE-A53D-2499098FEF0A}.Debug|x64.Build.0 = Debug|x64
+		{E9FBD584-D80F-4DCE-A53D-2499098FEF0A}.Debug|x86.ActiveCfg = Debug|Win32
+		{E9FBD584-D80F-4DCE-A53D-2499098FEF0A}.Debug|x86.Build.0 = Debug|Win32
+		{E9FBD584-D80F-4DCE-A53D-2499098FEF0A}.Release|Any CPU.ActiveCfg = Release|Win32
+		{E9FBD584-D80F-4DCE-A53D-2499098FEF0A}.Release|x64.ActiveCfg = Release|x64
+		{E9FBD584-D80F-4DCE-A53D-2499098FEF0A}.Release|x64.Build.0 = Release|x64
+		{E9FBD584-D80F-4DCE-A53D-2499098FEF0A}.Release|x86.ActiveCfg = Release|Win32
+		{E9FBD584-D80F-4DCE-A53D-2499098FEF0A}.Release|x86.Build.0 = Release|Win32
+		{B6FF5382-DBDB-47FF-8289-5BFF583512FF}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{B6FF5382-DBDB-47FF-8289-5BFF583512FF}.Debug|x64.ActiveCfg = Debug|x64
+		{B6FF5382-DBDB-47FF-8289-5BFF583512FF}.Debug|x64.Build.0 = Debug|x64
+		{B6FF5382-DBDB-47FF-8289-5BFF583512FF}.Debug|x86.ActiveCfg = Debug|Win32
+		{B6FF5382-DBDB-47FF-8289-5BFF583512FF}.Debug|x86.Build.0 = Debug|Win32
+		{B6FF5382-DBDB-47FF-8289-5BFF583512FF}.Release|Any CPU.ActiveCfg = Release|Win32
+		{B6FF5382-DBDB-47FF-8289-5BFF583512FF}.Release|x64.ActiveCfg = Release|x64
+		{B6FF5382-DBDB-47FF-8289-5BFF583512FF}.Release|x64.Build.0 = Release|x64
+		{B6FF5382-DBDB-47FF-8289-5BFF583512FF}.Release|x86.ActiveCfg = Release|Win32
+		{B6FF5382-DBDB-47FF-8289-5BFF583512FF}.Release|x86.Build.0 = Release|Win32
+		{09B3DDAB-9FE6-4DA8-B614-B1BF22251A1C}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{09B3DDAB-9FE6-4DA8-B614-B1BF22251A1C}.Debug|x64.ActiveCfg = Debug|x64
+		{09B3DDAB-9FE6-4DA8-B614-B1BF22251A1C}.Debug|x64.Build.0 = Debug|x64
+		{09B3DDAB-9FE6-4DA8-B614-B1BF22251A1C}.Debug|x86.ActiveCfg = Debug|Win32
+		{09B3DDAB-9FE6-4DA8-B614-B1BF22251A1C}.Debug|x86.Build.0 = Debug|Win32
+		{09B3DDAB-9FE6-4DA8-B614-B1BF22251A1C}.Release|Any CPU.ActiveCfg = Release|Win32
+		{09B3DDAB-9FE6-4DA8-B614-B1BF22251A1C}.Release|x64.ActiveCfg = Release|x64
+		{09B3DDAB-9FE6-4DA8-B614-B1BF22251A1C}.Release|x64.Build.0 = Release|x64
+		{09B3DDAB-9FE6-4DA8-B614-B1BF22251A1C}.Release|x86.ActiveCfg = Release|Win32
+		{09B3DDAB-9FE6-4DA8-B614-B1BF22251A1C}.Release|x86.Build.0 = Release|Win32
+		{46CD40D7-FF1A-4A59-9E3D-858C99D868AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46CD40D7-FF1A-4A59-9E3D-858C99D868AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46CD40D7-FF1A-4A59-9E3D-858C99D868AF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{46CD40D7-FF1A-4A59-9E3D-858C99D868AF}.Debug|x64.Build.0 = Debug|Any CPU
+		{46CD40D7-FF1A-4A59-9E3D-858C99D868AF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{46CD40D7-FF1A-4A59-9E3D-858C99D868AF}.Debug|x86.Build.0 = Debug|Any CPU
+		{46CD40D7-FF1A-4A59-9E3D-858C99D868AF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{46CD40D7-FF1A-4A59-9E3D-858C99D868AF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{46CD40D7-FF1A-4A59-9E3D-858C99D868AF}.Release|x64.ActiveCfg = Debug|Any CPU
+		{46CD40D7-FF1A-4A59-9E3D-858C99D868AF}.Release|x64.Build.0 = Debug|Any CPU
+		{46CD40D7-FF1A-4A59-9E3D-858C99D868AF}.Release|x86.ActiveCfg = Debug|Any CPU
+		{46CD40D7-FF1A-4A59-9E3D-858C99D868AF}.Release|x86.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
